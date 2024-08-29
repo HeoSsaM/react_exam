@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react_exam/static/css/main.e01603ff.css",
-    "main.js": "/react_exam/static/js/main.c5f97046.js",
-    "static/js/453.661c552e.chunk.js": "/react_exam/static/js/453.661c552e.chunk.js",
-    "static/media/ico_plant.png": "/react_exam/static/media/ico_plant.535b3a8f1486ecae4cab.png",
-    "index.html": "/react_exam/index.html",
-    "main.e01603ff.css.map": "/react_exam/static/css/main.e01603ff.css.map",
-    "main.c5f97046.js.map": "/react_exam/static/js/main.c5f97046.js.map",
-    "453.661c552e.chunk.js.map": "/react_exam/static/js/453.661c552e.chunk.js.map"
+    "main.css": "/HeoSsaM/react_exam.git/static/css/main.f2d240ec.css",
+    "main.js": "/HeoSsaM/react_exam.git/static/js/main.dcf3252d.js",
+    "static/js/453.661c552e.chunk.js": "/HeoSsaM/react_exam.git/static/js/453.661c552e.chunk.js",
+    "static/media/ico_plant.png": "/HeoSsaM/react_exam.git/static/media/ico_plant.535b3a8f1486ecae4cab.png",
+    "index.html": "/HeoSsaM/react_exam.git/index.html",
+    "main.f2d240ec.css.map": "/HeoSsaM/react_exam.git/static/css/main.f2d240ec.css.map",
+    "main.dcf3252d.js.map": "/HeoSsaM/react_exam.git/static/js/main.dcf3252d.js.map",
+    "453.661c552e.chunk.js.map": "/HeoSsaM/react_exam.git/static/js/453.661c552e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01603ff.css",
-    "static/js/main.c5f97046.js"
+    "static/css/main.f2d240ec.css",
+    "static/js/main.dcf3252d.js"
   ]
 }
