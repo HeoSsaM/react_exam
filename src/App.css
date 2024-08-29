@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+* {box-sizing: border-box;}
+.loader-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: #df4c6c;
   }
+  button {
+    border: none;
+    padding: 0;
+  }
+/* header */
+header {    
+  background: #000;
 }
+header > ul {
+  display: flex;
+}
+header > ul > li {
+}
+header > ul > li > a {
+  display: block;
+  padding: 15px 40px;
+  color: #fff;
+  text-decoration: none;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+  /* home */
+.home.contents {
+  height: 100vh;
+  background: url(https://img.29cm.co.kr/next-product/2022/05/20/7ab8ed23e69144acad104987a87287f8_20220520115555.jpg?width=700) no-repeat center/cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.home .titleArea {
+  text-align: center;
+
+}
+.home .titleArea h1 {
+  font-family: "Matemasie", sans-serif;
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.home .titleArea button {
+  width: 240px; 
+  height: 44px;
+  background: #359855;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.contents.products {
+  padding: 40px 20px;
+}
+.contents h2 {
+  font-weight: 700;
+  font-size: 26px;
+  background: url('./img/ico_plant.png') no-repeat left center/contain;
+  padding-left: 26px;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.contents .card {
+  margin-bottom: 30px;
+}
+.contents .card-content {
+  padding: 20px; 
+  box-sizing: border-box;
+}
+.contents .card-content h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.contents .card-content p {
+  line-height: 1.6;
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 25px;
+}
+.contents .card-content button {
+  padding: 8px 25px;
+  background: #df4c6c;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inquiryArea {
+  padding: 60px 20px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.inquiryArea h2 {
+  text-align: left;
+}
+.inquiryArea input {
+  width: 77%;
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  padding-left: 8px;
+}
+.inquiryArea .inputArea {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inquiryArea .inquiryList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #ccc ;
+  font-size: 15px;
+}
+.inquiryArea button {
+  width: 25%;
+  height: 40px;
+  padding: 4px 10px;
+  background: #216321;
+  color: #fff;  
+  font-weight: 500;
+}
+.inquiryArea .inquiryList button {
+  height: 28px;
+  font-size: 15px;
+  background: #444;
+  border-radius: 5px;
 }
