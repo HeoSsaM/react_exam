@@ -1,5 +1,4 @@
 import React from 'react';
-import { Reset } from 'styled-reset'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Header from './component/Header';
@@ -10,7 +9,6 @@ import Inquiry from './pages/Inquiary';
 function App() {
   return (
     <div className='wrap'>
-      <Reset />       
         <div className="contents">
           <Routes>
             <Route path="/" element={<Home />} />
